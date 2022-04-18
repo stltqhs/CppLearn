@@ -158,3 +158,27 @@ class buffer_t;
 // 2
 template <auto value> void foo(){}
 ```
+
+## 面向对象
+
+### 委托构造
+
+一个构造函数可以调用另一个构造函数。
+
+### 继承构造
+
+省去传统继承构造函数的参数书写。直接使用 `using` 即可完成。
+
+### 显示虚函数重载
+
+* `final`
+* `override`
+
+### 显示禁用默认构造函数
+
+* `default`
+* `delete`
+
+### 强类型枚举
+
+`enum class`
